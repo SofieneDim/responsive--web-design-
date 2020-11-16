@@ -1,0 +1,47 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    &__image {
+      width: 100px;
+      height: 50px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+
+    &__btn {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      color: #505569;
+      margin: 10px;
+      &--clicked {
+        color: #5567ff;
+      }
+    }
+  }
+  &__right-btn {
+    &__btn {
+      background-color: #5567ff;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      height: 40px;
+      width: 200px;
+      border-radius: 50px;
+      border: none;
+      margin-left: 30px;
+    }
+  }
+}
